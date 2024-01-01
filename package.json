@@ -1,0 +1,26 @@
+{
+  "name": "unsocket",
+  "type": "module",
+  "version": "0.2.1",
+  "author": "mashizora",
+  "license": "MIT",
+  "description": "Universal WebSocket API.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mashizora/unsocket.git"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "scripts": {},
+  "exports": {
+    "types": "./index.d.ts",
+    "bun": "./index.js",
+    "deno": "./index.js",
+    "node": "./index.node.js",
+    "default": "./index.js"
+  },
+  "peerDependencies": {
+    "ws": "*"
+  }
+}

@@ -1,0 +1,3 @@
+# unsocket
+
+Universal WebSocket API.
