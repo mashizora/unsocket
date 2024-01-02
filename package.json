@@ -1,6 +1,6 @@
 {
   "name": "unsocket",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "mashizora",
   "license": "MIT",
   "description": "Universal WebSocket API.",
@@ -14,14 +14,14 @@
   "scripts": {},
   "exports": {
     "import": {
-      "types": "./index.d.ts",
+      "types": "./index.d.mts",
       "bun": "./index.mjs",
       "deno": "./index.mjs",
       "node": "./index.node.mjs",
       "default": "./index.mjs"
     },
     "require": {
-      "types": "./index.d.ts",
+      "types": "./index.d.cts",
       "bun": "./index.cjs",
       "node": "./index.node.cjs",
       "default": "./index.cjs"
