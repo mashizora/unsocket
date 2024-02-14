@@ -1,1 +1,1 @@
-module.exports.WebSocket = require("ws").WebSocket;
+module.exports = require("ws").WebSocket;

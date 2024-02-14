@@ -1,1 +1,1 @@
-module.exports.WebSocket = globalThis.WebSocket;
+module.exports = globalThis.WebSocket;

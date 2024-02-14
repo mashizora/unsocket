@@ -1,1 +1,1 @@
-export { WebSocket } from "ws";
+export { WebSocket as default } from "ws";
